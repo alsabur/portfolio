@@ -1,0 +1,316 @@
+/* Global css codes */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    /* color: #F4F4F4; */
+}
+/*  font-family: 'IBM Plex Mono', monospace;
+
+     */
+
+    /* header section css */
+
+    .logo{
+       
+        font-size: 48px;
+        height: 60px;
+        width: 60px;
+        background-color: #1D3557;
+        line-height: 60px;
+        text-align: center;
+        border-radius: 8px;
+
+    }
+
+    .logo a{
+        color: #F1FAEE;
+        font-weight: 500;
+    }
+
+    .navbar{
+        margin-top: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .menu a{
+       display: block;
+        padding: 16px;
+        color: #1D3557;
+        font-size: 26px;
+        transition: 0.5s;
+        font-weight: 400;
+        
+    }
+
+    .menu a:hover{
+        color: #A8DADC;
+        transition: 0.5s;
+
+    }
+
+    .m-btn{
+      
+        background-color: #457B9D;
+        border: 2px solid #A8DADC;
+        border-radius: 5px;
+        margin-left: 30px;
+        transition: 0.5s;
+
+    }
+
+    .m-btn:hover{
+        background-color: #1f4a64;
+        border: 2px solid #A8DADC;
+        transition: 0.5s;
+    }
+
+    .m-btn a:hover{
+        color: #F1FAEE;
+        transition: 0.5s;
+    }
+
+    .m-btn a{
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 22px;
+        color: #F1FAEE;
+        transition: 0.5s;
+        padding: 10px 16px;
+        
+    }
+
+   .menu{
+       display: flex;
+       align-items: baseline;
+   }
+
+
+
+
+    /* header section css end */
+
+    /* hero section css */
+    .hero{
+        width: 100%;
+        padding: 280px 0;
+    }
+
+    .hero-content h4{
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+        font-size: 48px;
+        color: #1D3557;
+    }
+
+    .hero-content h3{
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 500;
+        font-size: 48px;
+        color: #1D3557;
+    }
+
+    .hero-content p{
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+        font-size: 20px;
+        color: #457B9D;
+        margin-top: 10px;
+    }
+
+    /* hero section end */
+
+    /* projects section css */
+    .projects{
+        width: 100%;
+        padding: 120px 0;
+
+    }
+
+    .section-title h3{
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 48px;
+        color: #457B9D;
+        font-weight: 400;
+    }
+
+    .p-items {
+        margin-top:70px ;
+        display: grid;
+        grid-template-columns: auto auto auto;
+       
+        
+    }
+
+    .p-items .br{
+        border-radius: 5px;
+        margin: 20px;
+    }
+
+    .p-items .project1{
+        height: 400px;
+        width: 400px;
+        background-color: #C4C4C4;
+
+
+    }
+
+    /* projects section css end */
+
+    /* about section css */
+    .about{
+        width: 100%;
+        padding: 120px 0;
+    }
+
+    .about-content .a-desc{
+        margin-top: 60px;
+    }
+   
+    .about-content .a-desc p{
+        color: #1D3557;
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+    /* about section css end */
+
+    /* footer section css */
+    footer{
+        width: 100%;
+        margin-top: 80px;
+        
+    }
+
+  .footer-content{
+      background-color: #1D3557;
+      height: 300px;
+      position: relative;
+
+  }
+
+
+  .contact-wrapper{
+      background-color: #457B9D;
+      height: 120px;
+      width: 700px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 5px;
+      position: absolute;
+      left:50% ;
+      transform: translateX(-50%);
+      top:-60px ;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     border: 3px solid #A8DADC;      
+
+    
+
+  }
+
+  .c-txt h3{
+      color: #F1FAEE;
+      font-size: 48px;
+      font-weight: 400;
+      margin-left: 60px;
+      
+  }
+
+  .c-btn{
+        background-color: #1D3557;
+        margin-right: 19px;
+        border-radius: 5px;
+         transition: 0.5s;
+         border: 2px solid #A8DADC;
+
+  }
+
+  .c-btn:hover{
+      background-color: #1f4a64;
+      transition: 0.5s;
+
+      
+
+
+  }
+  .c-btn a:hover{
+      color: #F1FAEE;
+      transition: 0.5s;
+
+
+  }
+
+  .c-btn a{
+        color: #1D3557;
+        padding: 200px 90px;
+        font-size: 40px;
+        color: #F1FAEE;
+        padding: 20px 40px !important;
+        font-size: 40px;
+        display: block;
+        transition: 0.5s;
+  }
+
+  .footer-content .sitemap{
+     
+      display: flex;
+        flex-direction: column;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        
+
+  }
+
+  .sitemap{
+      padding-bottom: 20px;
+  }
+
+  .sitemap a{
+      color: #F1FAEE;
+      font-size: 20px;
+      margin-top: 10px;
+      text-align: center;
+      font-weight: 300;
+      transition: 0.5s;
+  }
+
+  .sitemap a:hover{
+      color: #A8DADC;
+      transition: 0.5s;
+  }
+
+  .copyright{
+      text-align: center;
+      padding: 20px 0px;
+      background-color: #1D3557;
+  }
+
+  .copyright p{
+      color: rgb(189, 189, 189);
+
+  }
+
+   
+    /* footer section css end */
+
